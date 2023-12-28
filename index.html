@@ -5,15 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Physics Sims</title>
         <link rel="stylesheet" type="text/css" href="index.css">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script> <!---using this to repeat nav bar and title on multiple pages-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script> <!---using this to repeat navigation and banner on multiple pages-->
     </head>
     <body>
         <section id="header">
             <h1>Physics Sims</h1>
         </section>
-        <!--trying to input navigation -->
+        <!--JQuery loads navigation.html-->
         <div id="nav-placeholder">
-
         </div>
         
         <script>
@@ -21,9 +20,13 @@
           $("#nav-placeholder").load("./navigation.html");
         });
         </script>
+
         <section id="sim">
             <h2>Sim</h2>
-            <div id="simBlurb"></div>
+            <p id="simBlurb">
+                Welcome! I made this site to be a little collection of JavaScript simulations I've worked on. This has just been a little "for fun" project, so please don't 
+                be too confident in any of the results you get here. 
+            </p>
         </section>
     </body>
 </html>
